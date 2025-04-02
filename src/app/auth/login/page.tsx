@@ -25,6 +25,7 @@ const LoginPage: NextPage = () => {
 
 	const handleLogin = async (data: LoginFormValuesType) => {
 		// login({ data });
+		console.log(data);
 	};
 	return (
 		<div className='flex min-h-screen items-center justify-center p-4'>
